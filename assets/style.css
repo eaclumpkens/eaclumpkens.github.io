@@ -112,6 +112,18 @@ p {
     padding-bottom: 5%;
 }
 
+/* MEDIA LINKS */
+
+#media-links {
+    text-align: center;
+}
+
+
+#media-links div img {
+    margin-top:; 
+    width: 25%;
+}
+
 /* FOOTER */
 
 #footer {
