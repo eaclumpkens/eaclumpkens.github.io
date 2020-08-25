@@ -52,11 +52,30 @@ h3 {
 
 h2, h3 {
     font-weight: 600;
-   }
+    font-family: 'Montserrat', sans-serif;
+}
+
+li, a {
+    display: inline-block;
+}
 
 a {
     color:  #3a3841;;
 }   
+
+a:hover {
+    font-weight: 400;
+}
+
+a:after {
+    display: block;
+    content: attr(title);
+    font-weight: 400;
+    height: 1px;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+  }
 
 #bio-wrap {
     float: left;
