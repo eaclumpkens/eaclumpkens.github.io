@@ -1,4 +1,5 @@
 /* MAIN  */
+
 * {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -24,6 +25,7 @@ nav ul {
 
 nav ul li a {
     color: #98ada0;
+    font-size: 140%;
 }
 
 nav ul li a:hover {
@@ -77,25 +79,33 @@ a:after {
     visibility: hidden;
   }
 
-#bio-wrap {
+#bio-wrap, #bio3-wrap {
     float: left;
 }
 
-#contact-wrap {
+#img1, #img3 {
     float: right;
-    background: #98ada0;
-    padding: 10%;
-    border-radius: 10%;
 }
 
-#contact-wrap li {
-    font-size: 90%;
+#bio2-wrap {
+    float: right;
 }
+
+#img2 {
+    float: left;
+}
+
 
 .content {
     color: #3a3841;
     font-weight: 300;
     padding: 1.5% 0% 3% 0%;
+}
+
+.img-wrap {
+    background: #98ada0;
+    padding: 10%;
+    border-radius: 10%;
 }
 
 
