@@ -81,7 +81,7 @@ p {
 /* CARDS */
 
 .card-row {
-    margin: 0% 10% 2% 10%;
+    margin: 0% 5% 2% 5%;
 }
 
 .card-row div {
@@ -89,8 +89,8 @@ p {
 }
 
 .card {
-    width: 22rem;
-    height: 22rem; 
+    width: 19rem;
+    height: 19rem; 
     background: #d7dfda;
     border-color: #d7dfda;
 }
@@ -115,7 +115,7 @@ p {
 .card-text {
     font-size: 90%;
     padding-left: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 
 /* CONTACT FORM */
