@@ -118,43 +118,49 @@ p {
     padding-bottom: 5%;
 }
 
-/* MEDIA LINKS */
+/* CONTACT FORM */
 
-#media-links {
-    text-align: center;
-    margin-top: 2%;
+#contact-form, #send-button {
+    margin: 0 auto;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
-#media-links div img {
-    width: 16%;
-    margin: 4%;
-} 
+#send-button div a {
+    background: #98ada0;
+    border-color: #98ada0;
+}
 
-#media-links div img:hover {
-    opacity: 0.9;
-    animation: ;
+#send-button div a:hover {
+    background: #fff;
+    border-color: #98ada0;
+    color: #98ada0;
 }
 
 
 /* FOOTER */
 
-footer {
-    margin-top: 4%;
+#footer-wrap {
+    text-align: center;
+    margin-top: 5rem;  
 }
 
 #footer {
     background: #d7dfda;
 }
 
-#footer a {
-    margin: 0 auto;
-    font-weight: 300;
-    font-size: 100%;
+
+#footer a i {
+    margin: 1rem;
 }
 
-#footer a:hover {
-    color: #98ada0;
+#footer a i:hover {
+    opacity: 0.6;
 }
+
+
+
+
 
 
 
