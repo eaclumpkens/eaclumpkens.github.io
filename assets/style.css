@@ -38,7 +38,7 @@ nav {
 nav ul li a {
     font-weight: 400;
     font-size: 140%;
-    margin-right: 1.5rem;
+    margin: 0.9rem;
 }
 
 nav ul li a:hover {
@@ -64,7 +64,7 @@ h2 {
 p {
     text-align: justify;
     margin: 0 auto;
-    padding: 1.5% 15% 1.5% 15%;
+    padding: 1.5% 2% 1.5% 15%;
 }
 
 .content {
@@ -87,6 +87,7 @@ p {
     height: 19rem; 
     background: #d7dfda;
     border-color: #d7dfda;
+    overflow: scroll;
 }
 
 .card img {  
@@ -119,6 +120,7 @@ p {
     border-color: #98ada0;
     color: #98ada0;
 }
+
 
 /* CONTACT FORM */
 
@@ -210,7 +212,10 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-    #nav-bar {position: relative;}
+    #nav-bar {
+        position: relative;
+    }
+
     .nav-item li a.icon {
       position: absolute;
       right: 0;

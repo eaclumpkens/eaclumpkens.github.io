@@ -2,11 +2,11 @@
 
 <html class="">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>Home</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"/>
 
         <link rel="stylesheet" type="text/css" href="CSS/reset.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
@@ -69,26 +69,33 @@
                 <section id="card-row-1" class="row card-row">
 
                     <div class="col-md-3">
-                        <div class="card">
-                            <a href="" target="_blank"><img src="assets/images/coming-soon.gif" class="card-img-top" alt="coming soon"></a>
+                        <div id="weather-app" class="card">
+                            <a href="https://github.com/eaclumpkens/weatherApp" target="_blank"><img  id="weather-url" src="./assets/images/portfolio-images/weather-app-01.png" class="card-img-top" alt="coming soon"></a>
                             <div class="card-body">
-                              <h5 class="card-title">Lorem Ipsum</h5>
+                              <h5 class="card-title">Weather App</h5>
                               <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Morbi mollis ornare aliquam.
-                                </p>
+                                Uses Open Weather API and Moments.JS to render
+                                weather data based off the user's input city.  
+                                Current as well as future weather data is 
+                                presented with conditions. The user's last 
+                                search is saved to their local storage and 
+                                previous searches are appended to the document
+                                as clickable buttons.
+                              </p>
                             </div>
                           </div>
                     </div>
 
                     <div class="col-md-3">
                         <div class="card">
-                            <a href="" target="_blank"><img src="assets/images/coming-soon.gif" class="card-img-top" alt="coming soon"></a>
+                            <a href="https://github.com/eaclumpkens/passwordGenerator" target="_blank"><img src="./assets/images/portfolio-images/password-generator-01.png" class="card-img-top" alt="coming soon"></a>
                             <div class="card-body">
-                              <h5 class="card-title">Lorem Ipsum</h5>
+                              <h5 class="card-title">Password Generator</h5>
                               <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Morbi mollis ornare aliquam.
+                                The user is prompted via JavaScript alerts the 
+                                desired length and character type of their 
+                                randomized password. Input is validated on 
+                                input and rendered to the DOM.
                                 </p>
                             </div>
                           </div>
@@ -96,12 +103,16 @@
                     
                     <div class="col-md-3">
                         <div class="card">
-                            <a href="" target="_blank"><img src="assets/images/coming-soon.gif" class="card-img-top" alt="coming soon"></a>
+                            <a href="https://github.com/eaclumpkens/dayPlanner" target="_blank"><img src="./assets/images/portfolio-images/day-planner-01.png" class="card-img-top" alt="coming soon"></a>
                             <div class="card-body">
-                              <h5 class="card-title">Lorem Ipsum</h5>
+                              <h5 class="card-title">Day Planner</h5>
                               <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Morbi mollis ornare aliquam.
+                                Same-day planner that allows you to locally 
+                                store inputted hourly tasks. Users can save 
+                                their data via save buttons, current date and 
+                                times are dynamically displayed as well as 
+                                color coded depending on weather or note the 
+                                hour has passed.
                                 </p>
                             </div>
                           </div>
@@ -199,5 +210,6 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+        <script src="./script.js"></script>
     </body>
 </html>
