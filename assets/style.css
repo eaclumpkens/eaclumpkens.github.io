@@ -80,7 +80,7 @@ p {
 /* CARDS */
 
 .card-row {
-    margin: 0% 15% 2% 15%;
+    margin: 0% 5% 2% 5%;
 }
 
 .card-row div {
@@ -88,8 +88,6 @@ p {
 }
 
 .card {
-    width: 19rem;
-    height: 19rem; 
     background: #d7dfda;
     border-color: #d7dfda;
     overflow: scroll;
@@ -182,17 +180,18 @@ p {
     /* CARD QUERIES */
 
     .card {
-        width: 12rem;
-        height: 11rem;
+        width: 20rem;
+        height: 16rem;
+        margin: 1rem;
     }
 
     .card-row {
-        margin: 0% 20% 2% 20%;
+        margin: 0% 15% 2% 15%;
     }
 
     .card img {  
         width: 100%;
-        height: 6rem;
+        height: 8.5rem;
         object-fit: cover;
     }
 
