@@ -5,6 +5,12 @@
     color:  #3a3841;
 }
 
+/* ANIMATIONS */
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 2.5s;
+}
+
 /* CONTAINER */
 
 .container-fluid {
@@ -75,6 +81,8 @@ p {
 .content {
     color: #3a3841;
     font-weight: 300;
+
+    
 }
 
 /* CARDS */
@@ -146,8 +154,23 @@ p {
 
 /* MEDIA QUERIES */
 
+@media screen and (min-width: 1600px) {
+    /* CARD QUERIES */
 
-@media screen and (max-width:1600px) {
+    .card {
+        width: 35rem;
+        height: 25rem;
+        margin: 1rem;
+    }
+
+    .card img {
+        height: 13rem;
+    }
+
+}
+
+
+@media screen and (max-width:1599px) {
 
     /* CONTENT QUERIES */
 
