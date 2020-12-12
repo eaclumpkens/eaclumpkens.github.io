@@ -3,7 +3,7 @@
 
 [eaclumpkens.github.io](http://eaclumpkens.github.io/)
 
-My growing portfolio. I am working on further refining it's design but I am proud to have a few projects posted. Design responsivity has been refined and animation is in the works.
+Here I've created a simple portfolio page highlighting projects I created whilst completing the University of Richmond full-stack development course.
 
 ---
 
